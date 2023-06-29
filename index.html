@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Shortly</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resets.css"
+    />
+
+    <!-- IconsScout -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <div class="left__section">
+          <img
+            src="./images/logo.svg"
+            alt=""
+          />
+          <div class="nav__btns">
+            <button class="nav-toggle">
+              <i class="uil uil-bars"></i>
+            </button>
+            <button class="close-btn"><i class="uil uil-times"></i></button>
+          </div>
+        </div>
+        <div class="links__container">
+          <ul class="nav__links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#company">Company</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <div class="btns">
+              <button>Login</button>
+              <button>Sign Up</button>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container header__container">
+        <div class="header__body">
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand's recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="btn-cyan">Get Started</button>
+        </div>
+        <div class="header__img">
+          <img
+            src="./images//illustration-working.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <section class="shorten__section">
+      <div class="container shorten__container">
+        <input
+          type="text"
+          id="shorten"
+          placeholder="Shorten a link here ..."
+        />
+        <button
+          class="btn-cyan"
+          id="shorten-btn"
+        >
+          <p class="shorten-text">Shorten it</p>
+          <div class="loader"></div>
+        </button>
+      </div>
+      <div class="copyfield">
+        <div
+          id="copied"
+          class="copied"
+        >
+          Copied!
+        </div>
+        <a
+          href="#"
+          id="result"
+          class="result"
+          target="_blank"
+          >Shortened URL</a
+        >
+        <i
+          class="uil uil-copy"
+          id="copy-btn"
+        ></i>
+      </div>
+      <div id="error"></div>
+    </section>
+    <section class="advanced__statistics-section">
+      <div class="container statistics__container">
+        <div class="statistics__body">
+          <h1>Advanced Statistics</h1>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="statistics">
+          <article class="statistic">
+            <img
+              src="./images/icon-brand-recognition.svg"
+              alt=""
+            />
+            <h2>Brand Recognition</h2>
+            <p>
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </article>
+          <article class="statistic">
+            <img
+              src="./images/icon-detailed-records.svg"
+              alt=""
+            />
+            <h2>Detailed Records</h2>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </article>
+          <article class="statistic">
+            <img
+              src="./images/icon-fully-customizable.svg"
+              alt=""
+            />
+            <h2>Fully Customizable</h2>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="boost__section">
+      <div class="container boost__container">
+        <h1>Boost Your Links Today</h1>
+        <button class="btn-cyan">Get Started</button>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer__container">
+        <div class="logo">Shortly</div>
+        <article
+          id="features"
+          class="features"
+        >
+          <h4>Features</h4>
+          <a href="#">Link Shortening</a>
+          <a href="#">Branded Links</a>
+          <a href="#">Analytics</a>
+        </article>
+        <article
+          class="resources"
+          id="resources"
+        >
+          <h4>Resources</h4>
+          <a href="#">Blog</a>
+          <a href="#">Support</a>
+        </article>
+        <article
+          class="company"
+          id="company"
+        >
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Our Team</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </article>
+        <article class="footer__socials">
+          <a href="#"><i class="uil uil-facebook-f"></i></a>
+          <a href="#"><i class="uil uil-twitter"></i></a>
+          <a href="#"><i class="uil uil-instagram-alt"></i></a>
+          <a href="#"><i class="uil uil-whatsapp"></i></a>
+        </article>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
