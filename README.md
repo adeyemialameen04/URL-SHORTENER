@@ -22,7 +22,7 @@ You can view a live demo of the URL Shortener by visiting [Demo Link](https://sh
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/url-shortener.git`
+1. Clone the repository: `git clone https://github.com/adeyemialameen04/URL-SHORTENER.git`
 2. Open the project directory.
 3. Open the `index.html` file in your preferred browser.
 
