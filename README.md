@@ -1,25 +1,56 @@
-# URL-SHORTENER#
+# URL Shortener  ####SHORTLY
 
-## Description
-This is a simple URL shortener website that allows users to convert long URLs into short and manageable links. The website integrates with an API service to perform the URL shortening process. Users can easily generate short URLs and copy them for sharing.
+This is a simple URL shortener project built with HTML, CSS, and JavaScript. It allows users to shorten long URLs into shorter, more manageable ones.
+
+## Demo
+
+You can view a live demo of the URL Shortener by visiting [Demo Link](https://shortly-url-shortener-xi.vercel.app/).
 
 ## Features
-- Shorten long URLs into concise and easy-to-share links.
+
+- Shorten any long URL into a compact, shortened URL.
 - Copy the shortened URL to the clipboard with a single click.
-- Visually appealing and user-friendly interface.
-- Fast and reliable URL shortening service.
-- No backend required, all processing is done through API integration.
+- Track the number of times the shortened URL has been visited.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/url-shortener.git`
+2. Open the project directory.
+3. Open the `index.html` file in your preferred browser.
 
 ## Usage
-1. Open the website in your web browser.
-2. On the homepage, enter the long URL that you want to shorten in the provided input field.
-3. Click the "Shorten" button to generate the shortened URL.
-4. The shortened URL will be displayed below with an option to copy it.
-5. To copy the shortened URL to the clipboard, click the "Copy" button.
-6. Share the shortened URL with others using your preferred method (email, messaging apps, social media, etc.).
+
+1. Enter the long URL you want to shorten into the input field.
+2. Click the "Shorten" button.
+3. The shortened URL will be displayed below.
+4. Click the "Copy" button to copy the shortened URL to the clipboard.
+5. Share the shortened URL with others.
+
+## Customization
+
+You can customize the design and appearance of the URL shortener by modifying the CSS styles in the provided `style.css` file. Feel free to modify the HTML structure and JavaScript code to suit your needs.
+
+## Credits
+
+This project was created by [Your Name]. You can find the original repository at [GitHub Repository](https://github.com/your-username/url-shortener).
 
 ## License
-This website is open source and is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute it as per the license terms.
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Acknowledgements
-- [Rapid Api](https://rapidapi.com) for the API integration instructions.
+
+- [Iconscout](https://iconscout.com/) - Icons used in the project.
+- [Frontend Mentor](https://www.frontendmentor.io/) - Website i got the challenge from
+
+---
+
+Thank you for checking out this URL Shortener project! If you have any feedback or questions, please feel free to reach out.
